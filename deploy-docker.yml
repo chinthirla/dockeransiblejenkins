@@ -1,5 +1,5 @@
 ---
-- hosts: loaclhost
+- hosts: localhost
   connection: local
   become: True
   tasks:
