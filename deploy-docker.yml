@@ -23,7 +23,7 @@
     - name: Start the container
       docker_container:
         name: hariapp
-        image: "chinthirla/vijayapp:{{DOCKER_TAG}}"
+        image: "chinthirla/pipeline:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8081:8080
